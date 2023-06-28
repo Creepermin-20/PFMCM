@@ -6,7 +6,7 @@ class Game:
     def __init__(self):
         pygame.init()
         self.screen = pygame.display.set_mode((WIDTH,HEIGTH))
-        self.background = pygame.image.load('/home/aydan/Documents/GitHub/PFMCM/MEDIA/tiles/background.png')
+        self.background = pygame.image.load('../MEDIA/tiles/background.png')
         pygame.display.set_caption("PFMCM")
         self.clock = pygame.time.Clock()
 

@@ -4,7 +4,7 @@ from settings import *
 class Player(pygame.sprite.Sprite):
     def __init__(self,pos,groups,obstical_sprites):
         super().__init__(groups)
-        self.image = pygame.image.load("/home/aydan/Documents/GitHub/PFMCM/MEDIA/tiles/player.png").convert_alpha()
+        self.image = pygame.image.load("../MEDIA/tiles/player.png").convert_alpha()
         self.rect = self.image.get_rect(topleft = pos)
         self.hitbox = self.rect.inflate(-9,-15)
 
